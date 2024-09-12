@@ -10,7 +10,7 @@
 
 ## Example
 
-Given a directory structure like this:
+- Given a directory structure like this:
 
 ```
 /Songs 
@@ -18,7 +18,7 @@ Given a directory structure like this:
   └── MY FAVORITE SONGS
 ```
 
-After running **Folderize**, the structure will be transformed into:
+- After running **Folderize**, the structure will be transformed into:
 
 ```
 /Songs
@@ -32,19 +32,20 @@ After running **Folderize**, the structure will be transformed into:
 
    ```bash
    $ git clone https://github.com/roshanware/scripts.git
+   $ cd scripts/
    $ cd 1.\ Folderize/
    ```
 
-   Ensure you have Python installed (version 3.6+).
+2. Ensure you have Python installed (version 3.6+).
 
-   No additional dependencies are needed, as this script only uses Python's built-in libraries.
+3. No additional dependencies are needed, as this script only uses Python's built-in libraries.
 
 ## Usage
 
 1. Run the script and provide the path to the directory you want to process:
 
 ```bash
-$ python main.py
+$ python3 main.py
 ```
 
 2. You will be prompted to enter the directory path:
@@ -56,7 +57,7 @@ $ python main.py
 3.The script will rename all the folders in the specified directory, capitalizing the first letter of each word.
 
 ```bash
-$ python main.py
+$ python3 main.py
 [*] Enter the folder path: /Users/John/Songs
 [*] Renamed: /Users/John/Songs/TUPAC SHAKUR (10-20) -> /Users/John/Songs/Tupac Shakur (10-20)
 [*] Renamed: /Users/John/Songs/MY FAVORITE SONGS -> /Users/John/Songs/My Favorite Songs
@@ -64,8 +65,8 @@ $ python main.py
 
 ## Contributing
 
-Feel free to open issues or submit pull requests if you would like to contribute to the project.
+- Feel free to open issues or submit pull requests if you would like to contribute to the project.
 
 ## License
 
-This project is licensed under the MIT License.
+- This project is licensed under the MIT License.
